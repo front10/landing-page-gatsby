@@ -1,37 +1,53 @@
-import React from "react";
-
-import {
-  Hero,
-  Team,
-  Footer,
-  Social,
-  Image,
-  Header,
-  Container,
-  Section,
-  Video,
-  Column,
-  Row,
-  Code,
-  Features,
-  Copyright,
-  GithubButton,
-  BuiltWith,
-  Gif,
-  Backers,
-  Donation,
-  Link
-} from "@front10/landing-page-book/dist/components";
-
 //core
 import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
-
 //front10 components
-import "@front10/landing-page-book/dist/themes/default/index.css";
+import "@front10/landing-page-book/dist/components/Hero/style.css";
+import "@front10/landing-page-book/dist/components/Team/style.css";
+import "@front10/landing-page-book/dist/components/Footer/style.css";
+import "@front10/landing-page-book/dist/components/Social/style.css";
+import "@front10/landing-page-book/dist/components/Image/style.css";
+import "@front10/landing-page-book/dist/components/Header/style.css";
+import "@front10/landing-page-book/dist/components/Container/style.css";
+import "@front10/landing-page-book/dist/components/Section/style.css";
+import "@front10/landing-page-book/dist/components/Video/style.css";
+import "@front10/landing-page-book/dist/components/Column/style.css";
+import "@front10/landing-page-book/dist/components/Row/style.css";
+import "@front10/landing-page-book/dist/components/Code/style.css";
+import "@front10/landing-page-book/dist/components/Features/style.css";
+import "@front10/landing-page-book/dist/components/Copyright/style.css";
+import "@front10/landing-page-book/dist/components/GithubButton/style.css";
+import "@front10/landing-page-book/dist/components/BuiltWith/style.css";
+import "@front10/landing-page-book/dist/components/Gif/style.css";
+import "@front10/landing-page-book/dist/components/Backers/style.css";
+import "@front10/landing-page-book/dist/components/Donation/style.css";
+import "@front10/landing-page-book/dist/components/Link/style.css";
 //theme for code
 import "codemirror/theme/oceanic-next.css";
 import "../app.css";
+
+import React from "react";
+
+import Hero from "@front10/landing-page-book/dist/components/Hero";
+import Team from "@front10/landing-page-book/dist/components/Team";
+import Footer from "@front10/landing-page-book/dist/components/Footer";
+import Social from "@front10/landing-page-book/dist/components/Social";
+import Image from "@front10/landing-page-book/dist/components/Image";
+import Header from "@front10/landing-page-book/dist/components/Header";
+import Container from "@front10/landing-page-book/dist/components/Container";
+import Section from "@front10/landing-page-book/dist/components/Section";
+import Video from "@front10/landing-page-book/dist/components/Video";
+import Column from "@front10/landing-page-book/dist/components/Column";
+import Row from "@front10/landing-page-book/dist/components/Row";
+import Code from "@front10/landing-page-book/dist/components/Code";
+import Features from "@front10/landing-page-book/dist/components/Features";
+import Copyright from "@front10/landing-page-book/dist/components/Copyright";
+import GithubButton from "@front10/landing-page-book/dist/components/GithubButton";
+import BuiltWith from "@front10/landing-page-book/dist/components/BuiltWith";
+import Gif from "@front10/landing-page-book/dist/components/Gif";
+import Backers from "@front10/landing-page-book/dist/components/Backers";
+import Donation from "@front10/landing-page-book/dist/components/Donation";
+import Link from "@front10/landing-page-book/dist/components/Link";
 
 import AnimatedHero from "../hero.jsx";
 
