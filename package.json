@@ -5,12 +5,18 @@
   "scripts": {
     "develop": "mkdir public && cp -r assets/* public/ && gatsby develop",
     "build": "mkdir public && cp -r assets/* public/ && gatsby build",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "deploy": "gh-pages -d public -b master",
+    "predeploy": "npm run build build"
   },
+  "homepage": "https://front10.com/landing-page-gatsby/",
   "dependencies": {
     "@front10/landing-page-book": "^0.1.13",
     "gatsby": "^2.0.0",
     "react": "^16.5.1",
     "react-dom": "^16.5.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.0"
   }
 }
