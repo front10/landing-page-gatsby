@@ -44,11 +44,6 @@ import { navBarCode, importThemes } from "../data/code";
 
 export default () => (
   <div className="App">
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
-      rel="stylesheet"
-      type="text/css"
-    />
     <Hero opacity={1} overlayColor="#212529" particlesParams={particles}>
       <Container>
         <Image src="images/logo/front10.png" width="80" alt="Front10 logo" />
@@ -60,7 +55,7 @@ export default () => (
             href="https://front10.com/landing-page-book"
             target="_blank"
           >
-            Tell Me More
+            Explore
           </Link>
           <GithubButton
             btnType="star"
@@ -100,7 +95,7 @@ export default () => (
           href="https://front10.com/landing-page-book"
           target="_blank"
         >
-          Tell Me More
+          Explore
         </Link>
       </Container>
     </Section>
@@ -118,41 +113,39 @@ export default () => (
           href="https://front10.com/landing-page-book"
           target="_blank"
         >
-          Tell Me More
+          Explore
         </Link>
       </Container>
     </Section>
     <Section subTitle="Very fast and easy to use" title="OUR CODE">
       <Container>
         <Row>
-          <Column className="col col-md-3">
-            <Header type="h5" borderBottom>
-              How to use ?
-            </Header>
-            <p>You can import our components of easy from.</p>
-          </Column>
-          <Column className="col col-md-9">
-            <div>
-              <Code
-                readOnly
-                theme="oceanic-next"
-                languageCode="jsx"
-                code={importThemes}
-                showheader={false}
-                showfooter={false}
-                lineNumbers={false}
-              />
+          <Column className="col col-md-12">
+            <div className="text-center">
+              <Header type="h5" borderBottom>
+                How to use ?
+              </Header>
+              <p>You can import our components of easy from.</p>
             </div>
+            <Code
+              readOnly
+              theme="oceanic-next"
+              languageCode="jsx"
+              code={importThemes}
+              showheader={false}
+              showfooter={false}
+              lineNumbers={true}
+            />
           </Column>
         </Row>
-        <Row className="mt-5">
-          <Column className="col col-md-3">
-            <Header type="h5" borderBottom>
-              App.js
-            </Header>
-            <p>An example used to create a beautiful hero component</p>
-          </Column>
-          <Column className="col col-md-9">
+        <Row>
+          <Column className="col col-md-6 mt-5 code-secondary">
+            <div className="text-center">
+              <Header type="h5" borderBottom>
+                App.js
+              </Header>
+              <p>An example used to create a beautiful hero component</p>
+            </div>
             <Code
               readOnly
               theme="oceanic-next"
@@ -160,13 +153,21 @@ export default () => (
               code={navBarCode}
               showheader={false}
               showfooter={false}
-              lineNumbers={false}
+              lineNumbers={true}
             />
+          </Column>
+          <Column className="col col-md-6 mt-5">
+            <div className="text-center">
+              <Header type="h5" borderBottom>
+                Result
+              </Header>
+              <p>It's that easy to have a beautiful Hero</p>
+            </div>
             <div className="mt-3">
               <Hero
                 backgroundColor="#212529"
                 header="Front10"
-                minHeight="400px"
+                minHeight="350px"
                 subHeader="Rewriting the world with React"
                 image="images/hero/map-image.png"
                 particlesParams={{
@@ -187,6 +188,10 @@ export default () => (
             </div>
           </Column>
         </Row>
+        <Row className="mt-5">
+          <Column className="col col-md-3" />
+          <Column className="col col-md-12 text-center" />
+        </Row>
       </Container>
       <Container className="text-center mt-4">
         <Link
@@ -194,22 +199,13 @@ export default () => (
           href="https://front10.com/landing-page-book"
           target="_blank"
         >
-          Tell Me More
+          Explore
         </Link>
       </Container>
     </Section>
     <Section subTitle="Used tecnologies and frameworks" title="BUILD WITH" gray>
       <Container className="text-center BuildWith">
         <BuiltWith gray companies={build} />
-      </Container>
-      <Container className="text-center mt-3">
-        <Link
-          className="btn btn-primary btn-started"
-          href="https://front10.com/landing-page-book"
-          target="_blank"
-        >
-          Tell Me More
-        </Link>
       </Container>
     </Section>
     <Section subTitle="These are our members" title="TEAM">
@@ -226,7 +222,7 @@ export default () => (
           href="https://front10.com/landing-page-book"
           target="_blank"
         >
-          Tell Me More
+          Explore
         </Link>
       </Container>
     </Section>
