@@ -1,0 +1,16 @@
+{
+  "name": "gatsby-starter-hello-world",
+  "description": "Gatsby hello world starter",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop && cp -r assets/* public",
+    "build": "gatsby build && cp -r assets/* public",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "@front10/landing-page-book": "^0.1.13",
+    "gatsby": "^2.0.0",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1"
+  }
+}
