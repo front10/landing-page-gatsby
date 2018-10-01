@@ -11,12 +11,12 @@ class App extends Component {
               />
         );
     }
-  }
+}
   `;
 
 const importThemes = `
 import "@front10/landing-page-book/dist/themes/default/style.css";
-import { Navbar } from "@front10/landing-page-book/dist/components";
+import { Hero } from "@front10/landing-page-book/dist/components";
 `;
 
 export { navBarCode, importThemes };
