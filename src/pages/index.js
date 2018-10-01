@@ -160,7 +160,7 @@ export default () => (
               <Header type="h5" borderBottom>
                 App.js
               </Header>
-              <p>An example used to create a beautiful hero component</p>
+              <p>An example used to create a beautiful Hero component</p>
             </div>
             <Code
               readOnly
