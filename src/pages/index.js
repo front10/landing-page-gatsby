@@ -22,6 +22,8 @@ import "@front10/landing-page-book/dist/components/Gif/style.css";
 import "@front10/landing-page-book/dist/components/Backers/style.css";
 import "@front10/landing-page-book/dist/components/Donation/style.css";
 import "@front10/landing-page-book/dist/components/Link/style.css";
+import "@front10/landing-page-book/dist/components/Navbar/style.css";
+import "@front10/landing-page-book/dist/components/Button/style.css";
 //theme for code
 import "codemirror/theme/oceanic-next.css";
 import "../app.css";
@@ -48,6 +50,7 @@ import Gif from "@front10/landing-page-book/dist/components/Gif";
 import Backers from "@front10/landing-page-book/dist/components/Backers";
 import Donation from "@front10/landing-page-book/dist/components/Donation";
 import Link from "@front10/landing-page-book/dist/components/Link";
+import Button from "@front10/landing-page-book/dist/components/Button";
 
 import AnimatedHero from "../hero.jsx";
 
@@ -56,7 +59,12 @@ import features from "../data/features.json";
 import particles from "../data/particles.json";
 import build from "../data/build.json";
 import backers from "../data/backers.json";
-import { navBarCode, importThemes } from "../data/code";
+import {
+  navBarCode,
+  importThemes,
+  customCss,
+  customizedButton
+} from "../data/code";
 
 export default () => (
   <div className="App">
@@ -204,12 +212,48 @@ export default () => (
             </div>
           </Column>
         </Row>
-        <Row className="mt-5">
-          <Column className="col col-md-3" />
-          <Column className="col col-md-12 text-center" />
+      </Container>
+      <Container className="text-center mt-5">
+        <Link
+          className="btn btn-primary btn-started"
+          href="https://front10.com/landing-page-book"
+          target="_blank"
+        >
+          Explore
+        </Link>
+      </Container>
+    </Section>
+    <Section
+      title="THEMING"
+      subTitle=" You can change apparience of components using our css variables"
+    >
+      <Container>
+        <Row>
+          <Column className="theme-code">
+            <p>Create a custom-theme.css file</p>
+            <Code
+              readOnly
+              theme="oceanic-next"
+              languageCode="css"
+              code={customCss}
+              showheader={false}
+              showfooter={false}
+            />
+          </Column>
+          <Column>
+            <p>Import custom-theme.css file into your component</p>
+            <Code
+              readOnly
+              theme="oceanic-next"
+              languageCode="jsx"
+              code={customizedButton}
+              showheader={false}
+              showfooter={false}
+            />
+          </Column>
         </Row>
       </Container>
-      <Container className="text-center mt-4">
+      <Container className="text-center mt-5">
         <Link
           className="btn btn-primary btn-started"
           href="https://front10.com/landing-page-book"
