@@ -117,7 +117,7 @@ export default () => (
     </Section>
     <Section
       subTitle="One Look Is Worth A Thousand Words"
-      title="WHAT WE DO"
+      title="TAKE A SNEAK PEEK"
       gray
     >
       <Container>
