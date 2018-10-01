@@ -226,6 +226,7 @@ export default () => (
     <Section
       title="THEMING"
       subTitle=" You can change apparience of components using our css variables"
+      gray
     >
       <Container>
         <Row>
@@ -263,12 +264,12 @@ export default () => (
         </Link>
       </Container>
     </Section>
-    <Section subTitle="Used tecnologies and frameworks" title="BUILD WITH" gray>
+    <Section subTitle="Used tecnologies and frameworks" title="BUILD WITH">
       <Container className="text-center BuildWith">
         <BuiltWith gray companies={build} />
       </Container>
     </Section>
-    <Section subTitle="These are our members" title="TEAM">
+    <Section subTitle="These are our members" title="TEAM" gray>
       <Container>
         <Team
           showBorder={false}
@@ -284,6 +285,32 @@ export default () => (
         >
           Explore
         </Link>
+      </Container>
+    </Section>
+    <Section subTitle="Support 100%" title="FEEDBACK AND SUPPORT">
+      <Container className="text-center BuildWith">
+        <Image
+          src="images/support/maintenance.svg"
+          alt="Maintenance"
+          width="100"
+          className="ml-3 mr-3"
+        />
+        <Image
+          src="images/support/happy.svg"
+          alt="Maintenance"
+          width="100"
+          className="ml-3 mr-3"
+        />
+        <p className="mt-3">
+          To report any errors please{" "}
+          <Link
+            href="https://github.com/front10/landing-page-book/issues"
+            target="_blank"
+          >
+            click here
+          </Link>
+          . We will be happy to solve it
+        </p>
       </Container>
     </Section>
     <Section subTitle="Who donates us" title="BACKERS" gray>
@@ -309,12 +336,19 @@ export default () => (
           </Link>
         </Column>
         <Column className="col-sm-12 col-md mt-3 mt-md-0">
-          <Social gray type="twitter" url="https://twitter.com/front10hello" />
-          <Social
-            gray
-            type="linkedin"
-            url="https://www.linkedin.com/company/front10/"
-          />
+          <Link target="_blank" href="https://twitter.com/front10hello">
+            <Image src="images/socials/twitter.svg" alt="Twitter" width="40" />
+          </Link>
+          <Link
+            target="_blank"
+            href="https://www.linkedin.com/company/front10/"
+          >
+            <Image
+              src="images/socials/linkedin.svg"
+              alt="Linkedin"
+              width="40"
+            />
+          </Link>
         </Column>
       </Row>
     </Footer>
