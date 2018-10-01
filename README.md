@@ -1,16 +1,16 @@
-# Landing page create react app
+# Landing page Gatsby
 
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+This project was bootstrapped with [Gatsby](https://github.com/gatsbyjs/gatsby).
 
 Below you will find some information on how to perform common tasks.<br>
-You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
+You can find the most recent version of this guide [here](https://www.gatsbyjs.org/docs).
 
 # Steps to follow
 
 #### Downloading the source code
 
 ```
-# git clone https://github.com/front10/landing-page-create-react-app
+# git clone https://github.com/front10/landing-page-gatsby
 ```
 
 #### Running the App
@@ -18,12 +18,12 @@ You can find the most recent version of this guide [here](https://github.com/fac
 ```
 # cd the-route-of-your-project
 # npm install
-# npm start
+# npm run develop
 ```
 
 ### Running in the browser
 
-Open in your web browser the address http://127.0.0.1:3000
+Open in your web browser the address http://127.0.0.1:8000
 
 # Demo
 
