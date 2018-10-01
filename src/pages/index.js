@@ -117,7 +117,7 @@ export default () => (
     </Section>
     <Section
       subTitle="One Look Is Worth A Thousand Words"
-      title="WHAT WE DO"
+      title="TAKE A SNEAK PEEK"
       gray
     >
       <Container>
@@ -141,7 +141,7 @@ export default () => (
               <Header type="h5" borderBottom>
                 How to use ?
               </Header>
-              <p>You can import our components of easy from.</p>
+              <p>Let's import the HERO component</p>
             </div>
             <Code
               readOnly
@@ -160,7 +160,7 @@ export default () => (
               <Header type="h5" borderBottom>
                 App.js
               </Header>
-              <p>An example used to create a beautiful hero component</p>
+              <p>An example used to create a beautiful Hero component</p>
             </div>
             <Code
               readOnly
