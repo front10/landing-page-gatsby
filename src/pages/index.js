@@ -141,7 +141,7 @@ export default () => (
               <Header type="h5" borderBottom>
                 How to use ?
               </Header>
-              <p>You can import our components of easy from.</p>
+              <p>Let's import the HERO component</p>
             </div>
             <Code
               readOnly
