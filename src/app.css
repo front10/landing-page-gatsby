@@ -128,7 +128,8 @@ body {
 }
 
 .CodeMirror-scroll {
-    overflow: hidden !important;
+    overflow: scroll !important;
+    overflow-y: hidden !important;
 }
 
 .code-secondary .ReactCodeMirror .CodeMirror {
@@ -141,7 +142,7 @@ body {
 
 /* Scroll */
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     width: 5px;
     height: 10px;
 }
@@ -156,7 +157,7 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
-}
+} */
 
 /* /* end Scroll */
 
