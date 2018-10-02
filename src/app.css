@@ -38,7 +38,7 @@ body {
 }
 
 .main-subheader {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: rgb(246, 204, 32);
 }
 
@@ -107,7 +107,7 @@ body {
         font-size: 2rem;
     }
     .main-subheader {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     .gif-toolbar {
         margin-top: 15px;
