@@ -11,7 +11,7 @@
   },
   "homepage": "https://front10.com/landing-page-gatsby/",
   "dependencies": {
-    "@front10/landing-page-book": "^0.1.15",
+    "@front10/landing-page-book": "^0.1.16",
     "gatsby": "^2.0.0",
     "gatsby-plugin-favicon": "^3.1.4",
     "react": "^16.5.1",
