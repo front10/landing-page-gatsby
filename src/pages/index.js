@@ -69,39 +69,6 @@ import {
 
 export default () => (
   <div className="App">
-<Navbar
-  companyLink="https://front10.com"
-  companyLogo="images/logo/front10.png"
-  companyName="Front10"
-  className="mb-2"
-  expand="md"
-  rightItems={[
-    {
-      title: 'Services'
-    },
-    {
-      title: 'Contact'
-    }
-  ]}
-/>
-<Hero
-  buttons={[
-    {
-      onClick: function noRefCheck() {},
-      text: 'TELL ME MORE'
-    }
-  ]}
-  header="Love you tati"
-  image="https://c1.staticflickr.com/2/1845/43895099105_7329ee6bba_c.jpg"
-  opacity={1}
-  overlayColor="pink"
-  particlesParams={{
-    move: {
-      speed: 2
-    }
-  }}
-  subHeader="Leverage your process!"
-/>
     <Hero opacity={1} overlayColor="#212529" particlesParams={particles}>
       <Container>
         <Image src="images/logo/front10.png" width="80" alt="Front10 logo" />
@@ -264,27 +231,8 @@ export default () => (
     >
       <Container>
         <Row>
-          <Column className="theme-code">
-            <p>Create a custom-theme.css file</p>
-            <Code
-              readOnly
-              theme="oceanic-next"
-              languageCode="css"
-              code={customCss}
-              showheader={false}
-              showfooter={false}
-            />
-          </Column>
           <Column>
-            <p>Import custom-theme.css file into your component</p>
-            <Code
-              readOnly
-              theme="oceanic-next"
-              languageCode="jsx"
-              code={customizedButton}
-              showheader={false}
-              showfooter={false}
-            />
+            <Gif autoplay image="images/demo/themes.gif" />
           </Column>
         </Row>
       </Container>
