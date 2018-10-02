@@ -50,8 +50,6 @@ import Gif from "@front10/landing-page-book/dist/components/Gif";
 import Backers from "@front10/landing-page-book/dist/components/Backers";
 import Donation from "@front10/landing-page-book/dist/components/Donation";
 import Link from "@front10/landing-page-book/dist/components/Link";
-import Button from "@front10/landing-page-book/dist/components/Button";
-import Navbar from "@front10/landing-page-book/dist/components/Navbar";
 
 import AnimatedHero from "../hero.jsx";
 
@@ -60,18 +58,13 @@ import features from "../data/features.json";
 import particles from "../data/particles.json";
 import build from "../data/build.json";
 import backers from "../data/backers.json";
-import {
-  navBarCode,
-  importThemes,
-  customCss,
-  customizedButton
-} from "../data/code";
+import { navBarCode, importThemes } from "../data/code";
 
 export default () => (
   <div className="App">
     <Hero opacity={1} overlayColor="#212529" particlesParams={particles}>
       <Container>
-        <Image src="images/logo/front10.png" width="80" alt="Front10 logo" />
+        <Image src="images/logo/front10.png" width="160" alt="Front10 logo" />
         <Header className="main-header">Landing Page Book</Header>
         <Header className="main-subheader">React components to build!</Header>
         <div className="mt-5">
@@ -319,19 +312,11 @@ export default () => (
           </Link>
         </Column>
         <Column className="col-sm-12 col-md mt-3 mt-md-0">
-          <Link target="_blank" href="https://twitter.com/front10hello">
-            <Image src="images/socials/twitter.svg" alt="Twitter" width="40" />
-          </Link>
-          <Link
-            target="_blank"
-            href="https://www.linkedin.com/company/front10/"
-          >
-            <Image
-              src="images/socials/linkedin.svg"
-              alt="Linkedin"
-              width="40"
-            />
-          </Link>
+          <Social type="twitter" url="https://twitter.com/front10hello" />
+          <Social
+            type="linkedin"
+            url="https://www.linkedin.com/company/front10/"
+          />
         </Column>
       </Row>
     </Footer>
