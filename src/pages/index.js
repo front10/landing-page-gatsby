@@ -71,7 +71,7 @@ export default () => (
   <div className="App">
     <Hero opacity={1} overlayColor="#212529" particlesParams={particles}>
       <Container>
-        <Image src="images/logo/front10.png" width="80" alt="Front10 logo" />
+        <Image src="images/logo/front10.png" width="160" alt="Front10 logo" />
         <Header className="main-header">Landing Page Book</Header>
         <Header className="main-subheader">React components to build!</Header>
         <div className="mt-5">
