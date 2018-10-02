@@ -287,7 +287,7 @@ export default () => (
         </Link>
       </Container>
     </Section>
-    <Section subTitle="Support 100%" title="FEEDBACK AND SUPPORT">
+    <Section subTitle="We are happy to help ;)" title="FEEDBACK AND SUPPORT">
       <Container className="text-center BuildWith">
         <Image
           src="images/support/maintenance.svg"
@@ -302,14 +302,14 @@ export default () => (
           className="ml-3 mr-3"
         />
         <p className="mt-3">
-          To report any errors please{" "}
+          To report any issues or feedback please{" "}
           <Link
             href="https://github.com/front10/landing-page-book/issues"
             target="_blank"
           >
             click here
           </Link>
-          . We will be happy to solve it
+          .
         </p>
       </Container>
     </Section>
