@@ -3,6 +3,7 @@
   "description": "Gatsby hello world starter",
   "license": "MIT",
   "scripts": {
+    "start": "npm run develop",
     "develop": "mkdir public && cp -r assets/* public/ && gatsby develop",
     "build": "mkdir public && cp -r assets/* public/ && gatsby build",
     "serve": "gatsby serve",

@@ -18,7 +18,7 @@ You can find the most recent version of this guide [here](https://www.gatsbyjs.o
 ```
 # cd the-route-of-your-project
 # npm install
-# npm run develop
+# npm start or yarn start
 ```
 
 ### Running in the browser
@@ -33,4 +33,4 @@ Open in your web browser the address http://127.0.0.1:8000
 
 - https://www.npmjs.com/package/@front10/landing-page-book
 - https://front10.com/
-- https://storybook.js.org/
+- https://front10.com/landing-page-gatsby/
