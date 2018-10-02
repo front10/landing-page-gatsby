@@ -51,6 +51,7 @@ import Backers from "@front10/landing-page-book/dist/components/Backers";
 import Donation from "@front10/landing-page-book/dist/components/Donation";
 import Link from "@front10/landing-page-book/dist/components/Link";
 import Button from "@front10/landing-page-book/dist/components/Button";
+import Navbar from "@front10/landing-page-book/dist/components/Navbar";
 
 import AnimatedHero from "../hero.jsx";
 
@@ -68,6 +69,39 @@ import {
 
 export default () => (
   <div className="App">
+<Navbar
+  companyLink="https://front10.com"
+  companyLogo="images/logo/front10.png"
+  companyName="Front10"
+  className="mb-2"
+  expand="md"
+  rightItems={[
+    {
+      title: 'Services'
+    },
+    {
+      title: 'Contact'
+    }
+  ]}
+/>
+<Hero
+  buttons={[
+    {
+      onClick: function noRefCheck() {},
+      text: 'TELL ME MORE'
+    }
+  ]}
+  header="Love you tati"
+  image="https://c1.staticflickr.com/2/1845/43895099105_7329ee6bba_c.jpg"
+  opacity={1}
+  overlayColor="pink"
+  particlesParams={{
+    move: {
+      speed: 2
+    }
+  }}
+  subHeader="Leverage your process!"
+/>
     <Hero opacity={1} overlayColor="#212529" particlesParams={particles}>
       <Container>
         <Image src="images/logo/front10.png" width="80" alt="Front10 logo" />
@@ -225,7 +259,7 @@ export default () => (
     </Section>
     <Section
       title="THEMING"
-      subTitle=" You can change apparience of components using our css variables"
+      subTitle=" Change the appearance of the components using standard CSS variables"
       gray
     >
       <Container>
@@ -327,6 +361,7 @@ export default () => (
           <Copyright showAllRightText={false} text="Front10, LLC" />
         </Column>
         <Column className="col-sm-12 col-md mt-3 mt-md-0">
+          <span>With ♥ by </span>
           <Link href="https://front10.com/" target="_blank">
             <Image
               alt="Front 10 logo"
