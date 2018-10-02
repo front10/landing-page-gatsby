@@ -32,15 +32,14 @@ body {
 }
 
 .main-header {
-    font-size: 5rem;
+    font-size: 3rem;
     font-weight: 700;
     color: rgb(246, 204, 32);
 }
 
 .main-subheader {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: rgb(246, 204, 32);
-    font-style: italic;
 }
 
 .gif-toolbar {
@@ -53,6 +52,7 @@ body {
     border-color: #fed136;
     color: #383e45;
     border-radius: 5px;
+    margin-right: 0.3em;
 }
 
 .btn-started:hover {
@@ -107,7 +107,7 @@ body {
         font-size: 2rem;
     }
     .main-subheader {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     .gif-toolbar {
         margin-top: 15px;
