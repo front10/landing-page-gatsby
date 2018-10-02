@@ -102,7 +102,7 @@ export default () => (
       </Container>
     </Section>
     <Section
-      subTitle="Landing page book is the professional choice for developers"
+      subTitle="Landing page book is a scalable choice for developers"
       title="FEATURES"
     >
       <Container>
