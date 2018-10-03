@@ -291,9 +291,6 @@ export default () => (
     <Section subTitle="Who donates us" title="BACKERS" gray>
       <Container className="text-center">
         <Backers backers={backers} />
-        <div className="mt-5">
-          <Donation url="https://front10.com" />
-        </div>
       </Container>
     </Section>
     <Footer>
