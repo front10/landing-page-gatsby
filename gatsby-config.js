@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: `/landing-page-gatsby`,
   plugins: [
     {
       resolve: `gatsby-plugin-favicon`,
@@ -19,7 +18,6 @@ module.exports = {
         }
       }
     },
-    'gatsby-plugin-styled-components'
+    "gatsby-plugin-styled-components"
   ]
 };
-

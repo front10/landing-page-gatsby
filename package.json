@@ -8,7 +8,7 @@
     "build": "rm -rf public && mkdir public && cp -r assets/* public/ && gatsby build",
     "serve": "gatsby serve",
     "deploy": "gh-pages -d public -b gh-pages -r git@github.com:front10/landing-page-gatsby.git",
-    "predeploy": "mkdir public && cp -r assets/* public/ && gatsby build --prefix-paths"
+    "predeploy": "rm -rf public && mkdir public && cp -r assets/* public/ && gatsby build --prefix-paths"
   },
   "homepage": "https://front10.com/landing-page-gatsby/",
   "dependencies": {
