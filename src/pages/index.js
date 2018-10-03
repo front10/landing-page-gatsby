@@ -149,9 +149,6 @@ export default () => (
         <Row>
           <Column className="col col-md-12">
             <div className="text-center">
-              <Header type="h5" borderBottom>
-                How to use ?
-              </Header>
               <p>Let's import the HERO component</p>
             </div>
             <Code
@@ -168,9 +165,6 @@ export default () => (
         <Row>
           <Column className="col col-md-6 mt-5 code-secondary">
             <div className="text-center">
-              <Header type="h5" borderBottom>
-                App.js
-              </Header>
               <p>An example used to create a beautiful Hero component</p>
             </div>
             <Code
@@ -185,9 +179,6 @@ export default () => (
           </Column>
           <Column className="col col-md-6 mt-5">
             <div className="text-center">
-              <Header type="h5" borderBottom>
-                Result
-              </Header>
               <p>It's that easy to have a beautiful Hero</p>
             </div>
             <div className="mt-3">
