@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/landing-page-gatsby`,
+  pathPrefix: `landing-page-gatsby`,
   plugins: [
     {
       resolve: `gatsby-plugin-favicon`,

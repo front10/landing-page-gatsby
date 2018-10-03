@@ -50,6 +50,7 @@ import Gif from "@front10/landing-page-book/dist/components/Gif";
 import Backers from "@front10/landing-page-book/dist/components/Backers";
 import Donation from "@front10/landing-page-book/dist/components/Donation";
 import Link from "@front10/landing-page-book/dist/components/Link";
+import Analytics from "@front10/landing-page-book/dist/components/Analytics";
 
 import AnimatedHero from "../hero.jsx";
 
@@ -62,6 +63,7 @@ import { navBarCode, importThemes } from "../data/code";
 
 export default () => (
   <div className="App">
+    <Analytics idTracking="UA-44521541-9" />
     <Hero opacity={1} overlayColor="#212529" particlesParams={particles}>
       <Container>
         <Image src="images/logo/front10.png" width="160" alt="Front10 logo" />
@@ -291,9 +293,6 @@ export default () => (
     <Section subTitle="Who donates us" title="BACKERS" gray>
       <Container className="text-center">
         <Backers backers={backers} />
-        <div className="mt-5">
-          <Donation url="https://front10.com" />
-        </div>
       </Container>
     </Section>
     <Footer>
