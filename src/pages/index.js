@@ -69,6 +69,7 @@ export default () => (
   <div className="App">
     <Helmet defaultTitle={`GatsbyJS`} titleTemplate={`%s | GatsbyJS`}>
       <link rel="shortcut icon" href={logo} />
+      <title>Landing Page Book</title>
     </Helmet>
     <Analytics idTracking="UA-44521541-9" />
     <Hero opacity={1} overlayColor="#212529" particlesParams={particles}>
