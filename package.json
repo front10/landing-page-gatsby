@@ -4,10 +4,10 @@
   "license": "MIT",
   "scripts": {
     "start": "npm run develop",
-    "develop": "mkdir public && cp -r assets/* public/ && gatsby develop",
-    "build": "mkdir public && cp -r assets/* public/ && gatsby build",
+    "develop": "rm -rf public && mkdir public && cp -r assets/* public/ && gatsby develop",
+    "build": "rm -rf public && mkdir public && cp -r assets/* public/ && gatsby build",
     "serve": "gatsby serve",
-    "deploy": "gh-pages -d public -b gh-pages",
+    "deploy": "gh-pages -d public -b gh-pages -r git@github.com:front10/landing-page-gatsby.git",
     "predeploy": "mkdir public && cp -r assets/* public/ && gatsby build --prefix-paths"
   },
   "homepage": "https://front10.com/landing-page-gatsby/",
