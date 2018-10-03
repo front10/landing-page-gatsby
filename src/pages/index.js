@@ -52,6 +52,8 @@ import Donation from "@front10/landing-page-book/dist/components/Donation";
 import Link from "@front10/landing-page-book/dist/components/Link";
 import Analytics from "@front10/landing-page-book/dist/components/Analytics";
 
+import Helmet from "react-helmet";
+
 import AnimatedHero from "../hero.jsx";
 
 import team from "../data/team.json";
@@ -61,8 +63,13 @@ import build from "../data/build.json";
 import backers from "../data/backers.json";
 import { navBarCode, importThemes } from "../data/code";
 
+import logo from "../favicon.png";
+
 export default () => (
   <div className="App">
+    <Helmet defaultTitle={`GatsbyJS`} titleTemplate={`%s | GatsbyJS`}>
+      <link rel="shortcut icon" href={logo} />
+    </Helmet>
     <Analytics idTracking="UA-44521541-9" />
     <Hero opacity={1} overlayColor="#212529" particlesParams={particles}>
       <Container>
