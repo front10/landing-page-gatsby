@@ -15,10 +15,11 @@
     "@front10/landing-page-book": "^0.1.16",
     "babel-plugin-styled-components": "^1.8.0",
     "gatsby": "^2.0.0",
-    "gatsby-plugin-favicon": "^3.1.4",
+    "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-styled-components": "^3.0.0",
     "react": "^16.5.1",
-    "react-dom": "^16.5.1"
+    "react-dom": "^16.5.1",
+    "react-helmet": "^5.2.0"
   },
   "devDependencies": {
     "gh-pages": "^2.0.0"
