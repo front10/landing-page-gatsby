@@ -18,7 +18,8 @@ module.exports = {
           windows: true
         }
       }
-    }
+    },
+    'gatsby-plugin-styled-components'
   ]
 };
 
