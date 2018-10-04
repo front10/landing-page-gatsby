@@ -69,7 +69,9 @@ export default () => (
   <div className="App">
     <Helmet defaultTitle={`Landing Page Book`}>
       <link rel="shortcut icon" href={logo} />
-      <script src="https://cdn.polyfill.io/v2/polyfill.js?features=default,Symbol"></script>
+      {(false || !!document.documentMode) && (
+        <script src="https://cdn.polyfill.io/v2/polyfill.js?features=default,Symbol" />
+      )}
     </Helmet>
     <Analytics idTracking="UA-44521541-9" />
     <Hero opacity={1} overlayColor="#212529" particlesParams={particles}>
