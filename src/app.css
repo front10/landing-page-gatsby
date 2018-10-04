@@ -119,6 +119,9 @@ body {
     .BuildWith .ImageList .ImageList__Container img {
         margin: 10px 0;
     }
+    .main-logo {
+        width: 100px;
+    }
 }
 
 @media (max-width: 767px) {
