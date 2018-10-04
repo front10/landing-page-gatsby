@@ -67,14 +67,19 @@ import logo from "../favicon.png";
 
 export default () => (
   <div className="App">
-    <Helmet defaultTitle={`GatsbyJS`} titleTemplate={`%s | GatsbyJS`}>
+    <Helmet defaultTitle={`Landing Page Book`}>
       <link rel="shortcut icon" href={logo} />
-      <title>Landing Page Book</title>
     </Helmet>
     <Analytics idTracking="UA-44521541-9" />
     <Hero opacity={1} overlayColor="#212529" particlesParams={particles}>
       <Container>
-        <Image src="images/logo/front10.png" width="160" alt="Front10 logo" />
+        <Image
+          src="images/logo/front10.png"
+          rounded
+          width="160"
+          alt="Front10 logo"
+          className="main-logo"
+        />
         <Header className="main-header">Landing Page Book</Header>
         <Header className="main-subheader">React components to build!</Header>
         <div className="mt-5">
