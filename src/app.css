@@ -41,8 +41,8 @@ body {
   height: 100px;
 }
 
-.Gif .gif_player img {
-  width: auto;
+.Video {
+  max-width: 800px;
 }
 
 .main-header {
