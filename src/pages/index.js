@@ -33,13 +33,21 @@ import {
   Social
 } from "@front10/landing-page-book/dist/components";
 
+import Helmet from "react-helmet";
+
 import particles from "../data/particles.json";
 import features from "../data/features.json";
 import team from "../data/team.json";
 import browsers from "../data/browsers.json";
 
+import logo from "../favicon.png";
+
 export default () => (
   <div className="App">
+    <Helmet defaultTitle={`Landing Page Book | Gatsby js`}>
+      <link rel="shortcut icon" href={logo} />
+      <script src="https://cdn.polyfill.io/v2/polyfill.js?features=default,Symbol" />
+    </Helmet>
     <Container>
       <Row className="mt-5">
         <Column>
