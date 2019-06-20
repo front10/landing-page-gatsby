@@ -1,27 +1,28 @@
 {
-  "name": "gatsby-starter-hello-world",
-  "description": "Gatsby hello world starter",
-  "license": "MIT",
-  "scripts": {
-    "start": "npm run develop",
-    "develop": "rm -rf public && mkdir public && cp -r assets/* public/ && gatsby develop",
-    "build": "rm -rf public && mkdir public && cp -r assets/* public/ && gatsby build",
-    "serve": "gatsby serve",
-    "deploy": "gh-pages -d public -b gh-pages -r git@github.com:front10/landing-page-gatsby.git",
-    "predeploy": "rm -rf public && mkdir public && cp -r assets/* public/ && gatsby build --prefix-paths"
-  },
-  "homepage": "https://front10.com/landing-page-gatsby/",
-  "dependencies": {
-    "@front10/landing-page-book": "^0.1.16",
-    "babel-plugin-styled-components": "^1.8.0",
-    "gatsby": "^2.0.0",
-    "gatsby-plugin-react-helmet": "^3.0.0",
-    "gatsby-plugin-styled-components": "^3.0.0",
-    "react": "^16.5.1",
-    "react-dom": "^16.5.1",
-    "react-helmet": "^5.2.0"
-  },
-  "devDependencies": {
-    "gh-pages": "^2.0.0"
-  }
+	"name": "landing-page-gatsby",
+	"description": "Gatsby landing page",
+	"license": "MIT",
+	"scripts": {
+		"start": "npm run develop",
+		"develop": "rm -rf public && mkdir public && cp -r assets/* public/ && gatsby develop",
+		"build": "rm -rf public && mkdir public && cp -r assets/* public/ && gatsby build",
+		"serve": "gatsby serve",
+		"deploy": "gh-pages -d public -b gh-pages -r git@github.com:front10/landing-page-gatsby.git",
+		"predeploy": "rm -rf public && mkdir public && cp -r assets/* public/ && gatsby build --prefix-paths",
+		"now-build": "npm run build"
+	},
+	"homepage": "https://front10.com/landing-page-gatsby/",
+	"dependencies": {
+		"@front10/landing-page-book": "^0.1.16",
+		"babel-plugin-styled-components": "^1.8.0",
+		"gatsby": "^2.0.0",
+		"gatsby-plugin-react-helmet": "^3.0.0",
+		"gatsby-plugin-styled-components": "^3.0.0",
+		"react": "^16.5.1",
+		"react-dom": "^16.5.1",
+		"react-helmet": "^5.2.0"
+	},
+	"devDependencies": {
+		"gh-pages": "^2.0.0"
+	}
 }
