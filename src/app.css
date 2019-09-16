@@ -135,13 +135,16 @@ body {
     width: 100px;
   }
   .main-logo {
-    width: 100px;
+    width: 150px;
   }
 }
 
 @media (max-width: 767px) {
   .Footer .row .col {
     flex-basis: auto;
+  }
+  .main-header {
+    font-size: 1.9rem;
   }
 }
 
