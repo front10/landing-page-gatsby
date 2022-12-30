@@ -15,7 +15,7 @@
 	"dependencies": {
 		"@front10/landing-page-book": "^0.1.16",
 		"babel-plugin-styled-components": "^1.8.0",
-		"gatsby": "^2.0.0",
+		"gatsby": "^2.32.13",
 		"gatsby-plugin-react-helmet": "^3.0.0",
 		"gatsby-plugin-styled-components": "^3.0.0",
 		"react": "^16.5.1",
